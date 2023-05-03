@@ -26,7 +26,7 @@ export default {
       //  { headerName: "Make", field: "make" },
       //  { headerName: "Model", field: "model" },
       //  { headerName: "Price", field: "price" },
-        { headerName: "Name", field: "Name"},
+        { headerName: "Haus", field: "Name"},
         { headerName: "Kategorie", field: "Beschreibung"},
         { headerName: "Komplexität", field: "Komplexität"}
       ],
