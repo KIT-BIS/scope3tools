@@ -1,6 +1,6 @@
 <template>
     <ag-grid-vue
-      style="width: 500px; height: 200px"
+      style="width: 100%; height: 700px"
       class="ag-theme-alpine"
       :columnDefs="columnDefs"
       :rowData="rowData"
@@ -26,9 +26,15 @@ export default {
       //  { headerName: "Make", field: "make" },
       //  { headerName: "Model", field: "model" },
       //  { headerName: "Price", field: "price" },
-        { headerName: "Haus", field: "Name"},
-        { headerName: "Kategorie", field: "Beschreibung"},
-        { headerName: "Komplexität", field: "Komplexität"}
+
+        { headerName: "Name", field: "Name"},
+        { headerName: "Beschreibung", field: "Beschreibung"},
+        { headerName: "Funktion", field: "Funktion"},
+        { headerName: "PCF und CCF", field: "PCF und CCF"},
+        { headerName: "Komplexität", field: "Komplexität"},
+        { headerName: "Kosten", field: "Kosten"},
+        { headerName: "Link", field: "Link"},
+        { headerName: "Auflösung", field: "Auflösung"}
       ],
       rowData: csv,
       //rowData: [
